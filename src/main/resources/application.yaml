@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: outpass-workflow
+
+camunda:
+  client:
+    mode: saas
+    auth:
+      client-id: ufa25jwPdRrzYKiskBzyQLqCRA1t1kid
+      client-secret: g61o7jLIjBOgbZ6TEAuM.~UAQKsBgaD_N15k9RfKT6HVKEEwfQ312.Smia5Xhvu2
+    cloud:
+      cluster-id: dd293140-70e1-4423-9571-3a551acd80df
+      region: sin-1
