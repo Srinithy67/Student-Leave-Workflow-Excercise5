@@ -2,14 +2,6 @@
 
 This project models a simple leave/day-out request process using Camunda 8. Day-out requests are approved automatically, requests involving one or more nights are sent to the Warden for review in Tasklist, and requests with invalid dates are rejected.
 
-## Setup and Run
-
-Add your Camunda connection details to `src/main/resources/application.yaml`, then start the application with:
-
-```bash
-mvn spring-boot:run
-```
-
 ## Process Model
 
 The BPMN model for the workflow is shown below.
